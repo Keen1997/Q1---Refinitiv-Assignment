@@ -1,0 +1,30 @@
+.pageContainer {
+    display: flex;
+}
+
+.pageContainer div {
+    border: 1px solid #000;
+    height: 200px;
+}
+
+.pageContainer .col1 {
+    width: 200px;
+    min-width: 200px;
+}
+
+.pageContainer .col2 {
+    width: 100%;
+    min-width: 100px;
+}
+
+.pageContainer .col3 {
+    width: 300px;
+    min-width: 300px;
+}
+
+@media (max-width: 600px) {
+    .pageContainer {
+        overflow-x: scroll;
+        width: 100%;
+    }
+}
